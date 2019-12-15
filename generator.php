@@ -6,8 +6,6 @@ for ($i=0; $i <1000 ; $i++) {
     $heap->insert(mt_rand(0, 1000));
 }
 
- 
-$heap->insert(7);
 
 $rand = substr(md5(microtime()),rand(0,26),5);
 
